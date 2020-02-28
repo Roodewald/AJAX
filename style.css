@@ -46,12 +46,14 @@ footer{
     width: 150px;
     height: 220px;
     margin-top: 50px;
+    
 }
 .service{
     color: black;
     font-weight: bold;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 .service-dis{
     color: rgb(56, 50, 50);
@@ -66,4 +68,14 @@ footer{
     justify-content: center;
     font-weight: bold;
     margin: 35px 0;
+    color: green;
+}
+footer > div > a {
+    color: white;
+}
+.firstarticle{
+    background-color: violet;
+    max-width: 1200px;
+    min-width: 116px;
+    margin-top: 150px;
 }

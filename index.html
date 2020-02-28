@@ -7,44 +7,55 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="main.js"></script>
     <title>Бест верстка</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159219722-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-159219722-1');
+</script>
+    <!--Google Analytics end's-->
+
 </head>
 <body>
     <header>
         <div style="display: flex;align-items: center;"><img src="img/logo.png" class="logoHeader"></div>
         <div id="response" class="search">
-        <button class="search1" type="submit" name="form_bth" onclick="dd()">Получить информацию о продуктах</button>
+        <button class="search1" type="submit" name="form_bth" onclick="google_analytics()">Отключить Google Analytics</button>
         </div>
     </header>
     <main>
         <div class="eshop">
            <div class="eshopItem">
-               <p class="service">Название услуги</p>
-               <p class="service-dis">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-               <p class="price">500Р</p>
-           </div>
-           <div class="eshopItem">
-            <p class="service">Название услуги</p>
-            <p class="service-dis">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-            <p class="price">500Р</p>
+               <p class="service">Получив эту информацию вы соглошаетесь с неразглашением комерческой тайны  *УК РФ Статья 183*</p>
+               <button class="search1" type="submit" name="form_bth" onclick="dd()">Получить информацию об услугах</button>
+           </div> 
         </div>
-        <div class="eshopItem">
-            <p class="service">Название услуги</p>
-            <p class="service-dis">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-            <p class="price">500Р</p>
-        </div>
-        </div>
+        <article class="firstarticle">
+            <div class="ff">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero placeat praesentium, id et commodi aliquid pariatur natus cum quasi quibusdam culpa, fugit ipsum veritatis odit nostrum laudantium labore eius consectetur.</p>
+                <p>Vero, debitis autem error optio minus ipsum odit maxime praesentium! Nisi animi minima velit voluptatibus, dolor eligendi pariatur, corrupti ad accusantium sint dolorum at possimus veniam magnam nihil, perferendis maiores?</p>
+                <p>Facere omnis eveniet officiis labore dignissimos atque minus, quis eaque ipsa amet deserunt suscipit culpa illo ex repellendus aspernatur officia. Fugit animi iste ullam nostrum fugiat, ad quidem praesentium temporibus?</p>
+                <p>Et omnis porro eius asperiores repellat unde eum alias id optio fugiat eaque voluptatem placeat, quisquam voluptatibus qui cupiditate dolores commodi ullam odit labore, aspernatur nam reiciendis quia magni! Repellendus?</p>
+                <p>Accusamus beatae rerum eos consequatur temporibus? A laborum minima quia ad aspernatur ducimus consequuntur, tenetur nobis tempore vel natus numquam corporis distinctio libero iste eius sequi fugiat voluptatum alias suscipit.</p>
+            </div>
+        </article>
     </main>
     <footer>
         <div>
             Связаться с нами:<br>
-            PavelSavchenko@gmail.com<br>
-            +79125161007<br>
-            Сургут<br>
+            <a href="#">PavelSavchenko@gmail.com</a><br>
+            <a href="#">+79125161007</a><br>
+            <a href="#">Сургут</a><br>
+            
         </div>
         <div>
-            Политика конфидициальности<br>
-            Для сотрудников<br>
-            Докумены<br>
+            <a href="#">Политика конфидициальности</a><br>
+            <a href="#">Для сотрудников</a><br>
+            <a href="#">Докумены</a><br>
         </div>
     </footer>
 </body>
