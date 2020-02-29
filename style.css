@@ -79,3 +79,12 @@ footer > div > a {
     min-width: 116px;
     margin-top: 150px;
 }
+.buttonplace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstblock{
+    display: flex;
+    flex-direction: column;
+}
